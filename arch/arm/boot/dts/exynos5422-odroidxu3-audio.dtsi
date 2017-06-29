@@ -36,7 +36,7 @@
 			sound-dai = <&i2s0 0>;
 		};
 		codec {
-			sound-dai = <&hdmi>, <&max98090>;
+			sound-dai = <&hdmi>; //, <&max98090>;
 		};
 	};
 };

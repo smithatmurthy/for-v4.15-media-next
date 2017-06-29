@@ -797,8 +797,8 @@ static int hdmi_audio_infoframe_apply(struct hdmi_context *hdata)
 	if (len < 0)
 		return len;
 
-	hdmi_reg_writeb(hdata, HDMI_AUI_CON, HDMI_AUI_CON_EVERY_VSYNC);
-	hdmi_reg_write_buf(hdata, HDMI_AUI_HEADER0, buf, len);
+	//hdmi_reg_writeb(hdata, HDMI_AUI_CON, HDMI_AUI_CON_EVERY_VSYNC);
+	//hdmi_reg_write_buf(hdata, HDMI_AUI_HEADER0, buf, len);
 
 	return 0;
 }
